@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto !important;
+
+    .ant-pagination-item, .ant-pagination-item-link {
+        border: none;
+        background-color: inherit;
+    }
+
+    .ant-pagination-item-active {
+        background-color: #1890FF;
+        
+        a {
+            color: #fff;
+        }
+    }
+
+    .ant-pagination-prev {
+        margin-right: 1rem;
+    }
+
+    .ant-pagination-next {
+        margin-left: .5rem;
+    }
+}
+
+.cards-warning {
+    min-width: 8.75rem;
+    font-size: 1.5rem;
+}

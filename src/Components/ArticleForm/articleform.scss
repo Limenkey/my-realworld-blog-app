@@ -1,0 +1,80 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0,.25);
+    align-items: center;
+
+    .ant-card-body {
+        width: 100%;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    
+    input {
+        display: block;
+        min-width: 100%;
+        border: 1px solid rgba(0, 0, 0,.25);
+        border-radius: .25rem;
+        padding-left: .5rem;
+        min-height: 2.5rem;
+        outline: none; 
+    }
+
+    label {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    textarea {
+        min-width: 100%;
+        min-height: 10.5rem;
+        border: 1px solid rgba(0, 0, 0,.25);
+        border-radius: .25rem;
+        padding-left: .5rem;
+        resize: none;
+        outline: none;
+    }
+
+    .tag {
+        display: flex;
+        margin-bottom: .5rem;
+
+        input {
+            width: auto;
+            min-width: 18.75rem;
+            margin-right: 1rem;
+        }
+
+        button {
+            background: none;
+            margin-right: 1rem;
+            border-radius: 5px;
+            width: 6rem;
+            cursor: pointer;
+        }
+
+        .delete-btn {
+            color: #F5222D;
+            border: 1px solid #F5222D;
+        }
+
+        .add-tag-btn {
+            color: #1890FF;
+            border: 1px solid #1890FF;
+        }
+    }
+
+    .send-btn {
+        height: 2.5rem;
+        width: 42%;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #1890FF;
+    }
+
+}
